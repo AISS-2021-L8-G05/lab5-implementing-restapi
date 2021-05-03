@@ -7,7 +7,6 @@ import java.util.Map;
 import aiss.model.Playlist;
 import aiss.model.Song;
 
-
 public class MapPlaylistRepository implements PlaylistRepository{
 
 	Map<String, Playlist> playlistMap;
